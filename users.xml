@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<users>
+    <user accNo="00001">
+        <username>test</username>
+        <email>test@email.com</email>
+        <password>test</password>
+        <rank>Beginner</rank>
+    </user>
+
+    <user accNo="00002">
+        <username>test2</username>
+        <email>test2@email.com</email>
+        <password>test2</password>
+        <rank>Beginner</rank>
+    </user>
+</users>

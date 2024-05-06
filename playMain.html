@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanyuLink: Mandarin Expedition</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="playMain.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div id="logo-navbar">
+            <img src="images/Logo.1.png">
+        </div>
+
+        <div id="home-navbar">
+            <a href="dashboard.html">
+                <img src="images/home.png" class="nav-icon">Home</a>
+        </div>
+
+        <div id="tutorial-navbar">
+            <a href="tutorial.html"><img src="images/tutorial-active.png" class="nav-icon">How To Play</a>
+        </div>
+
+        <div id="play-navbar">
+            <a href="#"><img src="images/play.png" class="nav-icon"><b>Let's Play</b></a>
+        </div>
+
+        <div id="profile-navbar">
+            <a href="profile.html"><img src="images/profile.png" class="nav-icon">Profile</a>
+        </div>
+
+        <div id="logout-navbar">
+            <a href="index.html"><img src="images/logout.png" class="nav-icon">Logout</a>
+        </div>
+    </div>
+
+    <div id="play-navbar">
+        <h2>Choose Difficulty:</h2>
+        <div id="difficulty-buttons">
+            <button id="beginner" class="difficulty" href="play1.html">Beginner</button>
+            <button id="elementary" class="difficulty" href="play2.html" disabled>Elementary</button>
+            <button id="intermediate" class="difficulty" href="play3.html" disabled>Intermediate</button>
+            <button id="advanced" class="difficulty" href="play4.html" disabled>Advanced</button>
+            <button id="expert" class="difficulty" href="play5.html" disabled>Expert</button>
+        </div>
+    </div>
+
+</body>
+</html>

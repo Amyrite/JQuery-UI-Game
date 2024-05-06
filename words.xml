@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<words>
+    <word no="0001">
+        <hanzi>我</hanzi>
+        <pinyin>wǒ</pinyin>
+        <english>I</english>
+        <speech>Pronoun</speech>
+        <difficulty>Tutorial</difficulty>
+    </word>
+
+    <word no="1001">
+        <hanzi>你</hanzi>
+        <pinyin>nǐ</pinyin>
+        <english>you</english>
+        <speech>Pronoun</speech>
+        <difficulty>Beginner</difficulty>
+    </word>
+
+    <word no="1002">
+        <hanzi>好</hanzi>
+        <pinyin>hǎo</pinyin>
+        <english>good</english>
+        <speech>Adjective</speech>
+        <difficulty>Beginner</difficulty>
+    </word>
+
+    <word no="1003">
+        <hanzi>中国</hanzi>
+        <pinyin>Zhōngguó</pinyin>
+        <english>China</english>
+        <speech>Noun</speech>
+        <difficulty>Beginner</difficulty>
+    </word>
+    
+    <word no="1004">
+        <hanzi>小 </hanzi>
+        <pinyin>xiǎo</pinyin>
+        <english>small</english>
+        <speech>Adjective</speech>
+        <difficulty>Beginner</difficulty>
+    </word>
+
+    <word no="1005">
+        <hanzi>她</hanzi>
+        <pinyin>tā</pinyin>
+        <english>she</english>
+        <speech>Pronoun</speech>
+        <difficulty>Beginner</difficulty>
+    </word>
+
+    <word no="2001">
+        <hanzi>大家</hanzi>
+        <pinyin>dàjiā</pinyin>
+        <english>everyone</english>
+        <speech>Pronoun</speech>
+        <difficulty>Elementary</difficulty>
+    </word>
+
+    <word no="2002">
+        <hanzi>游泳</hanzi>
+        <pinyin>yóuyǒng</pinyin>
+        <english>swim</english>
+        <speech>Verb</speech>
+        <difficulty>Elementary</difficulty>
+    </word>
+
+    <word no="2003">
+        <hanzi>红</hanzi>
+        <pinyin>hóng</pinyin>
+        <english>red</english>
+        <speech>Adjective</speech>
+        <difficulty>Elementary</difficulty>
+    </word>
+
+    <word no="2004">
+        <hanzi>报纸</hanzi>
+        <pinyin>bàozhǐ</pinyin>
+        <english>newspaper</english>
+        <speech>Noun</speech>
+        <difficulty>Elementary</difficulty>
+    </word>
+
+    <word no="2005">
+        <hanzi>咖啡</hanzi>
+        <pinyin>kāfēi</pinyin>
+        <english>coffee</english>
+        <speech>Noun</speech>
+        <difficulty>Elementary</difficulty>
+    </word>
+
+    <word no="3001">
+        <hanzi>爱好</hanzi>
+        <pinyin>àihào</pinyin>
+        <english>hobby</english>
+        <speech>Noun</speech>
+        <difficulty>Intermediate</difficulty>
+    </word>
+
+    <word no="3002">
+        <hanzi>帮忙</hanzi>
+        <pinyin>bāngmáng</pinyin>
+        <english>to help</english>
+        <speech>Verb</speech>
+        <difficulty>Intermediate</difficulty>
+    </word>
+
+    <word no="3003">
+        <hanzi>方便</hanzi>
+        <pinyin>fāngbiàn</pinyin>
+        <english>convenient</english>
+        <speech>Adjective</speech>
+        <difficulty>Intermediate</difficulty>
+    </word>
+
+    <word no="3004">
+        <hanzi>几乎</hanzi>
+        <pinyin>jīhū</pinyin>
+        <english>almost</english>
+        <speech>Adjective</speech>
+        <difficulty>Intermediate</difficulty>
+    </word>
+
+    <word no="3005">
+        <hanzi>生气</hanzi>
+        <pinyin>shēngqì</pinyin>
+        <english>get angry</english>
+        <speech>Verb</speech>
+        <difficulty>Intermediate</difficulty>
+    </word>
+
+    <word no="4001">
+        <hanzi>生意</hanzi>
+        <pinyin>shēngyi</pinyin>
+        <english>business</english>
+        <speech>Noun</speech>
+        <difficulty>Advanced</difficulty>
+    </word>
+
+    <word no="4002">
+        <hanzi>排队</hanzi>
+        <pinyin>páiduì</pinyin>
+        <english>stand in a line</english>
+        <speech>Verb</speech>
+        <difficulty>Advanced</difficulty>
+    </word>
+
+    <word no="4003">
+        <hanzi>儿童</hanzi>
+        <pinyin>értóng</pinyin>
+        <english>children</english>
+        <speech>Noun</speech>
+        <difficulty>Advanced</difficulty>
+    </word>
+
+    <word no="4004">
+        <hanzi>香</hanzi>
+        <pinyin>xiāng</pinyin>
+        <english>fragrant</english>
+        <speech>Adjective</speech>
+        <difficulty>Advanced</difficulty>
+    </word>
+
+    <word no="4005">
+        <hanzi>放弃</hanzi>
+        <pinyin>fàngqì</pinyin>
+        <english>give up</english>
+        <speech>Verb</speech>
+        <difficulty>Advanced</difficulty>
+    </word>
+
+    <word no="5001">
+        <hanzi>熬夜</hanzi>
+        <pinyin>áoyè</pinyin>
+        <english>stay up late</english>
+        <speech>Verb</speech>
+        <difficulty>Expert</difficulty>
+    </word>
+
+    <word no="5002">
+        <hanzi>宝贵</hanzi>
+        <pinyin>bǎoguì</pinyin>
+        <english>valuable</english>
+        <speech>Adjective</speech>
+        <difficulty>Expert</difficulty>
+    </word>
+
+    <word no="5003">
+        <hanzi>被子</hanzi>
+        <pinyin>bèizi</pinyin>
+        <english>quilt</english>
+        <speech>Noun</speech>
+        <difficulty>Expert</difficulty>
+    </word>
+
+    <word no="5004">
+        <hanzi>报到</hanzi>
+        <pinyin>bàodào</pinyin>
+        <english>register</english>
+        <speech>Verb</speech>
+        <difficulty>Expert</difficulty>
+    </word>
+
+    <word no="5005">
+        <hanzi>潮湿</hanzi>
+        <pinyin>cháoshī</pinyin>
+        <english>damp</english>
+        <speech>Adjective</speech>
+        <difficulty>Expert</difficulty>
+    </word>
+
+    
+</words>

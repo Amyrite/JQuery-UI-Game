@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanyuLink: Mandarin Expedition</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="indexJS.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="images/Logo.1.png" id="logo"><br>
+        <h1 id="note">Mandarin Expedition</h1>
+    </div>
+
+    <div id="blurb">
+        <p>Join HanyuLink: Mandarin Expedition and conquer the language one Hanzi at a time! From beginner basics to advanced expressions, unravel the language's mysteries and become a true Mandarin master! Are you ready to embark on this linguistic adventure?</p>
+    </div>
+
+    <form method="post" action="dashboard.html" id="loginForm">
+            <div id="username">
+                <label>Username </label>
+                <input name="username" placeholder="Username" id="usernameForm" >
+            </div>
+
+            <div id="password">
+                <label>Password </label>
+                <input name="password" placeholder="Password" id="passwordForm">
+            </div>
+
+                <button id="loginBtn" type="submit">LOGIN</button>
+            </div>
+
+            <br>
+
+            <p>Don't have an account yet? <a href="#" id="signUpLink">Sign Up</a></p>
+    </form>
+    <br>
+    
+    <form method="post" id="signupForm" style="display: none;">
+            <div id="email">
+                <label>Email </label>
+                <input form="text" name="username" placeholder="user@email.com" id="emailForm" >
+            </div>
+
+            <div id="username">
+                <label>Username </label>
+                <input form="text" name="username" placeholder="Username" id="usernameForm" >
+            </div>
+
+            <div id="password">
+                <label>Password </label>
+                <input form="password" name="password" placeholder="Password" id="passwordForm">
+            </div>
+
+                <button id="signupBtn" type="submit">SIGN UP</button>
+            </div>
+    </form>
+    <br>
+    
+</body>
+</html>

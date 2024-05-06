@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+:root {
+    --color-primary: #D30000;
+    --color-secondary: #CD8A11;
+    --color-white: #F3F3F3;
+    --color-white-2: #e6e6e6;
+    --color-tan: #FFF3C5;
+    --color-tan-2: #FFCF93;
+    --color-black: #000;
+    --color-grey0: #39393A;
+    --color-grey-1: #011627;
+    --br-sn-2: 14px;
+    --transition-main: all .4s ease-in-out;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    background-image: url(images/bg2.png);
+    background-size: cover;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.header {
+    padding-top: 4em;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    text-align: center;
+}
+
+#note {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+#blurb {
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+form {
+    background-color: var(--color-tan);
+    border: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-1);
+}
+
+#username, #password, #email {
+    padding-bottom: 1rem;
+}
+
+#usernameForm, #passwordForm, #emailForm {
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    color: var(--color-primary);
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    box-shadow: var(--box-shadow-1);
+    text-align: center;
+    cursor: pointer;
+}
+
+#loginBtn:hover, #signupBtn:hover {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+}
+
+#signupLink {
+    cursor: pointer;
+}
+
+#emailForm {
+    width: 12.7rem;
+}
+
+#passwordForm {
+    width: 10.8rem;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem;
+}
+
+#navbar ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+#navbar li {
+    padding: 0.4rem;
+}
+
+#logo {
+    height: 25%;
+    width: 25%;
+}
+
+.profile-card {
+    background-color: var(--color-tan-2);
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem auto;
+    box-shadow: var(--box-shadow-1);
+}
+
+.profile-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #Ffffff;
+    border: 2px solid var(--color-white-2);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile-img img {
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-grey0);
+    text-align: center;
+    padding: 0;
+}
+
+.rank-info {
+    font-size: 1rem;
+    color: var(--color-grey0);
+    display: flex;
+    align-items: center;
+}
+
+.rank-info h3 {
+    margin-right: 0.5rem;
+    padding: 0.2rem;
+}
+
+#logo {
+    width: 55%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.nav a {
+    color: var(--color-white);
+}
+
+#home, #tutorial, #play, #about, #logout {
+    background-color: var(--color-tan-2);
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-align: center;
+    margin: 2rem;
+    box-shadow: var(--box-shadow-1);
+}
+
+#home {
+    background-color: var(--color-primary);
+}
+
+#home:hover, #tutorial:hover, #play:hover, #about:hover, #logout:hover {
+    background-color: var(--color-secondary);
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.navbar {
+    background-color: var(--color-tan-2);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 2rem;
+    width: 13rem;
+    height: 100%;
+}
+
+#logo-navbar img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.nav-icon {
+    width: 20%;
+    height: auto; 
+    margin-right: 1rem;
+}
+
+.navbar a {
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline;
+    align-items:start;
+}
+
+#home-navbar, #tutorial-navbar, #play-navbar, #about-navbar, #logout-navbar {
+    padding: 1rem;
+}
+
+.card {
+    background-color: var(--color-primary);
+    color: var(--color-white-2);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    z-index: 1;
+    width: 8rem;
+    height: 8rem;
+}
+
+
+.bin {
+    position: relative;
+    top: 60%;
+    background-color: var(--color-secondary);
+    color: var(--color-white-2);
+    font-size: 2rem;
+    padding: 4rem;
+    margin: 3rem;
+    border-radius: 12px;
+    z-index: -1;
+    box-shadow: var(--box-shadow-1);
+    display: inline-block;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+#bins-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+#gameOverMessage {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--color-tan);
+    position: fixed;
+    top: 20%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-1);
+    width: 15rem;
+}
+
+#gameWinMessage {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--color-tan);
+    position: fixed;
+    top: 20%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow-1);
+    width: 15rem;
+}
+
+#next, #redo {
+    margin: 1rem;
+}
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 999;
+    border-radius: 12px;
+}
+
+#game-container {
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}

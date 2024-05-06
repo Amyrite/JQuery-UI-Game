@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanyuLink: Mandarin Expedition</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js" integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU=" crossorigin="anonymous"></script>
+    <script src="tutorialJS.js"></script>
+
+</head>
+<body>
+    <div class="navbar">
+        <div id="logo-navbar">
+            <img src="images/Logo.1.png">
+        </div>
+
+        <div id="home-navbar">
+            <a href="dashboard.html">
+                <img src="images/home.png" class="nav-icon">Home</a>
+        </div>
+
+        <div id="tutorial-navbar">
+            <a href="#"><img src="images/tutorial-active.png" class="nav-icon"><b>How To Play</b></a>
+        </div>
+
+        <div id="play-navbar">
+            <a href="playMain.html"><img src="images/play.png" class="nav-icon">Let's Play</a>
+        </div>
+
+        <div id="profile-navbar">
+            <a href="profile.html"><img src="images/profile.png" class="nav-icon">Profile</a>
+        </div>
+
+        <div id="about-navbar">
+            <a href="about.html"><img src="images/about.png" class="nav-icon">About</a>
+        </div>
+
+        <div id="logout-navbar">
+            <a href="index.html"><img src="images/logout.png" class="nav-icon">Logout</a>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup-container" id="popup">
+        <h2>How To Play</h2>
+        <p>Place the cards on their respective bins according to what part of the sentence the Mandarin Word is.</p>
+        <button id="closeBtn">Close</button>
+    </div>
+
+    <div id="game-container">
+        <div id="cards-container"></div>
+
+        <div id="bins-container">
+            <div class="bin" data-part-of-speech="Pronoun">Pronoun</div>
+            <div class="bin" data-part-of-speech="Adjective">Adjective</div>
+        </div>
+    </div>
+
+</body>
+</html>
