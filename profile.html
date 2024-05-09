@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HanyuLink: Mandarin Expedition</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="profileJS.js"></script>
+
+</head>
+<body>
+<div class="navbar">
+    <div id="logo-navbar">
+        <img src="images/Logo.1.png">
+    </div>
+
+    <div id="home-navbar">
+        <a href="dashboard.html">
+            <img src="images/home.png" class="nav-icon">Home</a>
+    </div>
+
+    <div id="tutorial-navbar">
+        <a href="tutorial.html"><img src="images/tutorial-active.png" class="nav-icon">How To Play</a>
+    </div>
+
+    <div id="play-navbar">
+        <a href="playMain.html"><img src="images/play.png" class="nav-icon">Let's Play</a>
+    </div>
+
+    <div id="profile-navbar">
+        <a href="profile.html"><img src="images/profile-active.png" class="nav-icon"><b>Profile</b></a>
+    </div>
+
+    <div id="about-navbar">
+        <a href="about.html"><img src="images/about.png" class="nav-icon">About</a>
+    </div>
+
+    <div id="logout-navbar">
+        <a href="index.html"><img src="images/logout.png" class="nav-icon">Logout</a>
+    </div>
+</div>
+
+<div class="profile-img">
+    <img src="images/panda 1.png" alt="Profile Picture">
+    <button id="editProfilePic">Edit</button> <!-- New edit button for profile picture -->
+</div>
+<div class="profile-info">
+    <h2 id="usernameDisplay"></h2><img src="images/edit.png" id="editUsername">
+    <p id="password"></p><img src="images/edit.png" id="editPassword">
+
+    <div class="rank-info">
+        <h3>Rank:  </h3>
+        <p id="rank"></p>
+    </div>
+
+</div>
+
+<div class="editUsername-card"><!--opens when the editUsername button is clicked-->
+    <h4>New Username:</h4>
+    <input form="text" name="username" placeholder="username" id="newusernameForm" style="display: none;">
+    <button>Save</button>
+    <button>Cancel</button>
+</div>
+
+<div class="editPassword-card"><!--opens when the editUPassword button is clicked-->
+    <h4>New Password:</h4>
+    <input form="password" name="password" placeholder="Password" id="newpasswordForm" style="display: none;">
+    <button>Save</button>
+    <button>Cancel</button>
+</div>
+
+<!-- Hidden input field for uploading profile picture -->
+<input type="file" id="profilePicInput" style="display: none;">
+
+</body>
+</html>
